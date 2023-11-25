@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <form>
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="contato.css">
+            <title>Cadastro</title>
+        </head>
+        <body>
+            <main>
+            <h1>Contato</h1>
+            <form>
+            <label for="nome">
+                <span>Nome</span><br>
+                <input type="text" id="nome" name="nome"/>
+            </label>
+            <label for="email">
+                <span>E-mail</span><br>
+                <input type="email" id="email" name="email"/>
+             </label>
+             <label for="mensagem">
+                <span>Deixe uma mensagem:</span><br>
+                <textarea type="text" id="mensagem" name="mensagem" rows="10" cols="100"></textarea><br>
+             </label>
+
+             <label for="mensagem">
+                <span>Gostamos de feedbaks. Nos informe como foi conhecer a loja e como foi o atendimento recebido:</span><br>
+                <textarea type="text" id="mensagem" name="mensagem" rows="10" cols="100"></textarea><br>
+             </label>
+
+             <label for="mensagem">
+                <span>Se a resposta da pergunta anterior foi negativa, dê-nos uma sugestão de como podemos melhorar! Sua opinião importa muito!</span><br>
+                <textarea type="text" id="mensagem" name="mensagem" rows="10" cols="100"></textarea><br>
+            </label>
+             </label>
+
+            <input type="submit" value="Enviar" id="validaçao"/>
+            </form>
+        </main>
+    
+    </form>
+
+    <script>
+        function validaçao() {
+            alert("Sua mensagem foi enviada, retornaremos assim que possível!" );
+        }
+        document.getElementById ("validaçao"). onclick = validaçao;
+    </script>
+    
+</body>
+</html>

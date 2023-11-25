@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"content="Roupas Femininas">
+    <meta name = "author" content="ThayOliveira"
+    <meta name ="keywords" content = "moda crstã, moda evagélica">
+    <title>Irmãs Fashion - Moda Evangélica</title>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="paginainicial.css">
+</head>
+<style>
+    h1 {
+        font-size: 400%;
+        color:#110f13;
+    }
+</style>
+
+<body>
+    <section id="cabeçalho">
+        
+    <nav class="container row">
+        <div><button><a a target="_blank" href="paginainicial.html" class="pag">Página Inicial</a></button></div>
+        <div><button><a target="_blank" href="promoçoes.html">Promoções Especiais</a></button></div>
+        <div><button><a target="_blank" href="modelos.html">Modelos</a></button></div>
+        <div><button><a target="_blank" href="comochegar.html">Como chegar</a></button></div>
+    </nav>
+
+
+  <h1>
+     <b>IRMÃS FASHION</b><br>
+        <font size="40">Moda Evangélica - TAM 34 ao 54, do PP ao XG</font><br></br>
+    </h1>
+</h1>
+    <audio autoplay = "autoplay" controls = "controls">
+        <source src="River flows in you - 이루마(Yiruma) _ 피아노 커버 (320 kbps).mp3" type="audio/mp3"></audio>
+    <p class="fonte">Por que você precisa conhecer a loja??</p>
+    <ol class="li">
+        <p>Roupas lindas!!</p> 
+        <p>Material excelente!!</p>
+        <p>Muitos modelos!!</p>
+    </ol>
+
+   
+    <br></br>
+</section>
+
+    <div class="fontte"><p></p><b>VÁRIAS CORES, TAMANHOS E ESTAMPAS PARA VOCÊ SE SENTIR LINDA COMO REALMENTE É!</b></p></div>
+
+<section id="meio" class="container photo">
+   
+    <img src="img/img2.jpeg" alt="Vestidos">
+    <img src="img/img3.jpeg" alt="Casacos">
+    <img src="img/img4.jpeg" alt="Saias">
+</section>
+
+    <br></br>
+    <br></br>
+    
+    <div>
+        <img src="img/instagram.jpg">
+
+    <a href="https://www.instagram.com/irmasfashion.oficial/?igshid=ZDdkNTZiNTM%3D"><button> Clique aqui para conferir a loja no Instagram!</button</a>
+    
+    </div>
+
+    <br></br>
+    <br></br>
+
+</body>
+
+<footer>
+    Criado por ThayOliveira
+</footer>
+</html> 
+
+

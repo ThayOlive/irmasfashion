@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2? family= Sarala & display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*}
+#cabeçalho {
+    height: 800px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+*/
+body{
+    background-color: #ddb4da;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    gap: 1rem; 
+}
+
+.cards {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(240, 214, 243);
+    border-radius: 16px;
+    justify-content: center;
+    margin: 40px;
+    
+}
+.cards:hover{
+    width: 450px;
+    height: 500px;
+ 
+   
+}
+
+.card {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+   font-family: 'Sarala', sans-serif;
+   margin-top: 700px;
+  
+}
+
+
+
+.cards .h3 {
+    font-size: 6.5rem;
+    text-align: center;
+}
+
+.cards .content {
+    position:absolute;
+    padding: 60px;
+    width: 30%;
+    margin-top: 25%;
+
+}
+
+
+.cards .content button {
+    text-decoration: none ;
+    padding: 3px 20px ;
+    border-radius: 80px ;
+    font-size: 6pt;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(171, 112, 211), rgb(192, 179, 240)  );
+
+  
+}
+
+.tam {
+    display: inline-flex;
+}
+
+ img {
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin-left: 30px;
+
+}
+
+.carrossel {
+    margin-top: 20px;
+    height: 650px;
+    width: 1100px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform:translate(-50%) ;
+    display: flex;
+   
+}
+
+label {
+    width: 70px;
+    height: 17px;
+    border:2px solid white ;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    align-items: center;
+}
+
+label:hover {
+    background-color: white;
+}
+
+input {
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 90%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~.s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+@media screen and (max-width: 500px)  {
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 500px;
+        background-color: rgb(240, 214, 243);
+        border-radius: 16px;
+        justify-content: center;
+        margin: 40px;
+        
+    }
+    .cards:hover{
+        width: 450px;
+        height: 500px;
+     
+       
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        min-height: 60vh;
+        justify-content: center;
+       font-family: 'Sarala', sans-serif;
+       margin-top: 700px;
+      
+    }
+    
+    
+    
+    .cards .h3 {
+        font-size: 6.5rem;
+        text-align: center;
+    }
+    
+    .cards .content {
+        position:absolute;
+        padding: 60px;
+        width: 30%;
+        margin-top: 25%;
+    
+    }
+    
+    
+    .cards .content button {
+        text-decoration: none ;
+        padding: 3px 20px ;
+        border-radius: 80px ;
+        font-size: 6pt;
+        color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: linear-gradient(to right, rgb(171, 112, 211), rgb(192, 179, 240)  );
+    
+      
+    }
+
+    .carrossel {
+        margin-top: 20px;
+        height: 650px;
+        width: 480px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 48%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:1000px){ 
+    /*TABLET*/
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 500px;
+        background-color: rgb(240, 214, 243);
+        border-radius: 16px;
+        justify-content: center;
+        margin: 60px;
+        
+    }
+    .cards:hover{
+        width: 450px;
+        height: 500px;
+     
+       
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        min-height: 60vh;
+        justify-content: center;
+       font-family: 'Sarala', sans-serif;
+       margin-top: 700px;
+      
+    }
+    
+    
+    
+    .cards .h3 {
+        font-size: 6.5rem;
+        text-align: center;
+    }
+    
+    .cards .content {
+        position:absolute;
+        padding: 60px;
+        width: 30%;
+        margin-top: 25%;
+    
+    }
+    
+    
+    .cards .content button {
+        text-decoration: none ;
+        padding: 3px 20px ;
+        border-radius: 80px ;
+        font-size: 6pt;
+        color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: linear-gradient(to right, rgb(171, 112, 211), rgb(192, 179, 240)  );
+    
+      
+    }
+
+    .carrossel {
+        margin-top: 20px;
+        height: 650px;
+        width: 700px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 48%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+}
+    
+
+
+
+
+
+
+
+
+
+

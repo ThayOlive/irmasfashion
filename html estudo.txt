@@ -1,0 +1,25 @@
+<!DOCTYPE html> — o doctype. É a parte inicial obrigatória do documento.
+colocar ponto de ! para começar em html (primeiro passo)
+
+<html></html> — o elemento <html> . Esse elemento envolve todo o conteúdo da página e às vezes é conhecido como o
+ elemento raiz.
+
+
+<head></head> — o elemento <head> . Esse elemento age como um recipiente de tudo o que você deseja incluir em uma 
+página HTML que não é o conteúdo que você quer mostrar para quem vê sua página. 
+
+
+<meta (é um elemento capaz de definir qualquer tipo de informação, mais conhecidas como metadados —
+ os quais não podem ser definidos por outro elemento HTML) charset="utf-8"> — utilizado para fazer a indicação de
+ um formato de codificação definido por caracteres que foram utilizados em um determinado documento. 
+Quando o UTF-8 é introduzido em um documento, significa que suas regras podem ser seguidas para que uma 
+determinada pessoa consiga ter acesso ao conteúdo que está procurando, independente de qual língua ela 
+consiga ler ou falar.
+
+
+<title></title> — o elemento <title>. Ele define o título da sua página, que é o título que aparece na guia do navegador 
+onde sua página é carregada. Ele também é usado para descrever a página quando você a adiciona aos favoritos.
+
+
+<body></body> — o elemento <body>. Contém todo o conteúdo que você quer mostrar ao público que visita sua 
+página, seja texto, imagens, vídeos, jogos, faixas de áudio reproduzíveis ou qualquer outra coisa.

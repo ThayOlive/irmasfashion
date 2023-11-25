@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}*/
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(37, 55, 90);
+    font-weight: 500;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin-top: 3px;
+   
+}
+
+main {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+}
+
+main h1 {
+    color: violet;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+main form label {
+    display:flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    color: aliceblue;
+}
+
+main form input {
+    background: gray;
+    width: 300px;
+    height: 50px;
+    padding: 0.0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid violet;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main form input[type="submit"]{
+cursor: pointer;
+width: 50%;
+margin-top: 4rem;
+border:none;
+border-radius: 32px;
+background: violet;
+color: white;
+font-size: 1.1rem;
+transition: all 0.3s ease-in-out;
+}
+
+main form input[type="submit"]:hover{
+    background:palevioletred;
+}
+
+section.images{
+    width: 60vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    position: absolute;
+
+  
+
+}
+
+section.images img {
+    width: 100%;
+    
+}
+
+section.images .circulos {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:30%
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+section.images img {
+    width:110%;
+}    
+}
+
+@media only screen and (max-width:900px) {
+    section.images {
+        display: none;
+        visibility: hidden;
+    }
+
+    main {
+        width: 100vh;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    main h1 {
+        font-size: 2rem;
+    }
+    main form label span, main form input [type="submit"] {
+        font-size: 1rem;
+    }
+}
+
